@@ -3,10 +3,10 @@
 # $Header: $
 
 DESCRIPTION="Pre-compiled kernel and modules"
-HOMEPAGE="ewpt3ch.com"
+HOMEPAGE="none"
 LICENSE=""
-SRC_URI="http://storm.ewpt3ch.com/distfiles/${PN}-${PVR}.tar.bz2"
-RESTRICT="nomirror strip"
+SRC_URI="${PN}-${PVR}.tar.bz2"
+RESTRICT="fetch strip"
 IUSE=""
 KEYWORDS="~x86"
 SLOT="0"
